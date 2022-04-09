@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+}
+
+
+div {
+
+  color: rgb(255, 255, 255);
+  margin: auto;
+  text-align: center;
+  width: 60%;
+
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+h4 {
+  text-align: left;
+  color: white;
+  font-size: 20px;
+}
+
+span.ant-statistic-content-value {
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+  border: 2px;
+  background-color: #d5e2dd;
+  background-image: linear-gradient(320deg, #838a87 0%, #000000 70%);
+  border-radius: 8px;
+
+}
