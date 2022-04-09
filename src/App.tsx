@@ -15,10 +15,10 @@ function App() {
 
 
   const { Countdown } = Statistic;
-  const deadline = Date.now() + 996.8 * 60 * 60 * 24 * 2 * 7 + 1000*30 ;
-  const deadline2 = Date.now() + 1045 * 60 * 60 * 24 * 2 * 7 + 1000 * 30 + 180;
-  const deadline3 = Date.now() + 1060 * 60 * 60 * 24 * 2 * 7 + 1000 * 30 + 180;
-  const deadline4 = Date.now() + 1066 * 60 * 60 * 24 * 2 * 7 + 1000 * 30 + 180;
+  const deadline = Date.now() + 990.8 * 60 * 60 * 24 * 2 * 7 + 1000*30 ;
+  const deadline2 = Date.now() + 1040 * 60 * 60 * 24 * 2 * 7 + 1000 * 30 + 180;
+  const deadline3 = Date.now() + 1055 * 60 * 60 * 24 * 2 * 7 + 1000 * 30 + 180;
+  const deadline4 = Date.now() + 79000 + 1000 * 1 ;
   return (
    <div>
    
