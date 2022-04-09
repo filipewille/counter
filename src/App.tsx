@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { DatePicker, Statistic } from 'antd';
+import { Statistic } from 'antd';
 import { AiFillAlert } from "react-icons/ai";
 import { AiFillShop } from "react-icons/ai";
 import { FaUmbrellaBeach } from "react-icons/fa";
@@ -31,17 +31,17 @@ function App() {
 
 
       <h4><AiFillShop color={'green'} size={30} />  Para o show!</h4>
-      <Countdown value={deadline} format="HH:mm:ss:SSS" />
+      <Countdown value={deadline} format="DD:HH:mm:ss:SSS" />
 
 
 
       <h4><FaUmbrellaBeach color={'yellow'} size={30} />  Para praia!</h4>
-      <Countdown value={deadline2} format="HH:mm:ss:SSS" />
+      <Countdown value={deadline2} format="DD:HH:mm:ss:SSS" />
 
 
 
       <h4><GiPartyPopper color={'pink'} size={30} />  Para noite temática!</h4>
-      <Countdown value={deadline3} format="HH:mm:ss:SSS" />
+      <Countdown value={deadline3} format="DD:HH:mm:ss:SSS" />
 
       <h4><GiPiercedHeart color={'red'} size={30} />  Para o Kaio achar uma namorada!</h4>
       <Countdown value={deadline4} format="HH:mm:ss:SSS" />
